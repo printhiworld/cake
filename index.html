@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>my sweety</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="index.html">
+            <img src="media/logo.svg" class="logo" alt="logo">
+        </a>
+        <nav>
+            <ul>
+                <li><a href="cakes.html">Готовые торты</a></li>
+                <li><a href="filling.html">Начинка</a></li>
+                <li><a href="delivery.html">Доставка</a></li>
+                <li><a href="answer.html">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="banner">
+        <h1>ДОМАШНЯЯ КОНДИТЕРСКАЯ <br</h1>
+        <h2>СДЕЛАНО С ЛЮБОВЬЮ...</h2>
+    </section>
+    <section class="adventages">
+        <div class="content">
+            <div class="adventages">
+                <img src="media/icon_1.png" alt="Натуральные продукты">
+                <p>Только<br> натуральные продукты</p>
+            </div>
+            <div class="adventages">
+                <img src="media/icon_2.png" alt="Без консервантов">
+                <p>Безконсервантов<br> срок хранения 48 часов</p>
+            </div>
+            <div class="adventages">
+                <img src="media/icon_3.png" alt="Индивидуальный дизайн">
+                <p>Индивидуальный дизайн</p>
+            </div>
+            <div class="adventages">
+                <img src="media/icon_4.png" alt="Разные вкусы">
+                <p>Разнообразие<br> вкусов в одном торте</p>
+            </div>
+        </div>
+    </section>
+    <section class="select">
+        <div class="content">
+            <h2>А ЧЕГО ЖЕЛАЕТЕ ВЫ?</h2>
+            <div class="select__cakes">
+                <div class="select__cake">
+                    <img src="media/select-cake-1.jpg" alt="Выбрать готовый торт">
+                    <a onclick="openPage('cakes')">ВЫБРАТЬ ГОТОВЫЙ</a>
+                </div>
+                <div class="select__cake">
+                    <img src="media/select-cake-2.jpg" alt="заказать свой торт">
+                    <a onclick="openPage('Mmain', true)">СОЗДАТЬ СВОЙ</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about">
+        <div class="content">
+            <div class="about__wrap">
+                <div class="about__text">
+                    <p>В секции для отзыва клиентов прописываем изображение и текстовый
+                        отзы</p>
+                    <p>Секция для блока обратной связи с клиентом ставим текст, ссылку
+                        на телефон и форму для заказа
+                        </p>
+                    <p>Блок с картой будет включать плавающий фрейм. Вставьте его.
+                        – Подвал должен быт заполнен следующим образом
+                        </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="reviews">
+        <div class="content">
+            <div class="review">
+                <img src="media/review-1.jpg" alt="Photo review">
+                <div class="review__text">
+                    <blockquote>
+                        Секция для блока обратной связи с клиентом ставим текст, ссылку
+                        на телефон и форму для заказа
+                    </blockquote>
+                </div>
+            </div>
+            <div class="review">
+                <img src="media/review-2.jpg" alt="Photo review">
+                <div class="review__text">
+                    <blockquote>
+                        Секция для блока обратной связи с клиентом ставим текст, ссылку
+                        на телефон и форму для заказа
+                    </blockquote>
+                </div>
+            </div>
+            <div class="review">
+                <img src="media/review-3.jpg" alt="Photo review">
+                <div class="review__text">
+                    <blockquote>
+                        Секция для блока обратной связи с клиентом ставим текст, ссылку
+                        на телефон и форму для заказа
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="feedback" id="feedback">
+        <div class="content">
+            <h2>READY TO ORDER? CALL US!</h2>
+            <a href="tel:+789546873241">
+                <h3>+789546873241</h3>
+            </a>
+            <h4>ИЛИ ОМТЧОВАТЬ ТЕОЛВЕТФОН И МЫ АПЕРА ПОЛРЛВ Е САМИ</h4>
+            <form action="">
+                <div class="form__contact">
+                    <input type="text" placeholder="WRITE YOUR NAME" required pattern="[A-Za-zA-Яа-яЁё]{2,}">
+                    <input type="tel" name="tel-number" required pattern="0-9]{11}">
+                </div>
+                <div class="form__download">
+                    УСТЬ ЫЛОТЕО ПРИВЕМРО ,
+                   <label for="download">UPLOAD HERE</label>
+                    <input type="file" id="download" name="download" accept=".PNG, JPG, JPEG">
+                </div>
+                <div class="form__SUBMIT">
+                    <input type="checkbox" name="personal" id="personal">
+                    <label for="personal">
+                        I AGREE WITH PRIVATE POLICY
+                    </label>
+                </div>
+                <input type="submit" value="CHAT" onclick="onePage('answer')">
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="content">
+            <div class="footer_main">
+                <div class="footer__info">
+                    <p>Домашняя кондитерская<br> "Моя сладость"</p>
+                    <p>ИП Иванова У.К.</p>
+                    <p>Все проава защищены</p>
+                </div>
+                <div class="footer__social">
+                    <p>Мы в социальных сетях</p>
+                    <a href="bmkgbmgbd'"><img src="media/icon_5.png" alt="ВК"></a>
+                    <a href="bmkgbmgbd'"><img src="media/icon_6.png" alt="Инстаграмм"></a>
+
+                </div>
+                <div class="footer__menu">
+                    <nav>
+                        <ul>
+                            <li><a href="cakes.html">Готовые торты</a></li>
+                            <li><a href="filling.html">Начинка</a></li>
+                            <li><a href="delivery.html">Доставка</a></li>
+                            <li><a href="answer.html">Контакты</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="footer__add">
+                <p> при создании учеьного сайта использовались файлы из папки преподавателя</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
